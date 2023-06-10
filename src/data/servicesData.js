@@ -1,8 +1,8 @@
 /* eslint-disable */
 import { BiShoppingBag, BiPencil } from "react-icons/bi";
-import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
+import { BsCodeSlash, BsCode, BsClipboardData } from "react-icons/bs";
 import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
-import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper, FaBtc } from "react-icons/fa";
 
  
 
@@ -12,16 +12,16 @@ export const servicesData = [
     //     title: 'Marketing',
     //     icon: <BiShoppingBag/>
     // },
-    {
-        id: 2,
-        title: 'Content Writing',
-        icon: <BiPencil /> 
-    },
-    {
-        id: 3,
-        title: 'Email Marketing',
-        icon: <AiOutlineMail />
-    },
+    // {
+    //     id: 2,
+    //     title: 'Content Writing',
+    //     icon: <BiPencil /> 
+    // },
+    // {
+    //     id: 3,
+    //     title: 'Email Marketing',
+    //     icon: <AiOutlineMail />
+    // },
     // {
     //     id: 4,
     //     title: 'Internet Research',
@@ -40,19 +40,19 @@ export const servicesData = [
     },
     {
         id: 7,
-        title: 'Photography',
-        icon: <FaCameraRetro />
+        title: 'Web Development',
+        icon: <BsCode />
     },
     // {
     //     id: 8,
     //     title: 'Pinterest Virtual Assistant',
     //     icon: <FaPinterest />
     // }, 
-    {
-        id: 9,
-        title: 'Video Editing',
-        icon: <FaVideo />
-    },
+    // {
+    //     id: 9,
+    //     title: 'Video Editing',
+    //     icon: <FaVideo />
+    // },
     // {
     //     id: 10,
     //     title: 'Data Entry', 
@@ -60,7 +60,7 @@ export const servicesData = [
     // },
     {
         id: 11,
-        title: 'Ebook Writing',
+        title: 'Mobile Development',
         icon: <FaTabletAlt />
     },
     // {
@@ -70,8 +70,8 @@ export const servicesData = [
     // },
     {
         id: 13,
-        title: 'Blog Posting',
-        icon: <FaRegNewspaper />
+        title: 'Blockchain',
+        icon: <FaBtc />
     },
 
 ]

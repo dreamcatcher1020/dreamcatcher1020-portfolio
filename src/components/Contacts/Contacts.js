@@ -5,6 +5,9 @@ import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
+    FaSkype,
+    FaTelegram,
+    FaDiscord,
     FaTwitter,
     FaLinkedinIn,
     FaGithub,
@@ -305,6 +308,30 @@ function Contacts() {
                         </a>
                         <div className='personal-details'>
                             <div className={classes.detailsIcon}>
+                                <FaSkype />
+                            </div>
+                            <p style={{ color: theme.tertiary }}>
+                                {contactsData.skype}
+                            </p>
+                        </div>
+                        <div className='personal-details'>
+                            <div className={classes.detailsIcon}>
+                                <FaTelegram />
+                            </div>
+                            <p style={{ color: theme.tertiary }}>
+                                {contactsData.telegram}
+                            </p>
+                        </div>
+                        <div className='personal-details'>
+                            <div className={classes.detailsIcon}>
+                                <FaDiscord />
+                            </div>
+                            <p style={{ color: theme.tertiary }}>
+                                {contactsData.discord}
+                            </p>
+                        </div>
+                        <div className='personal-details'>
+                            <div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />
                             </div>
                             <p style={{ color: theme.tertiary }}>
@@ -313,7 +340,7 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
+                            {/* {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
                                     target='_blank'
@@ -322,7 +349,7 @@ function Contacts() {
                                 >
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
-                            )}
+                            )} */}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -343,7 +370,7 @@ function Contacts() {
                                     <FaLinkedinIn aria-label='LinkedIn' />
                                 </a>
                             )}
-                            {socialsData.instagram && (
+                            {/* {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
                                     target='_blank'
@@ -422,7 +449,7 @@ function Contacts() {
                                 >
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
-                            )}
+                            )} */}
                         </div>
                     </div>
                 </div>
