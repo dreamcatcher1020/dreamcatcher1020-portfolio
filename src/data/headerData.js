@@ -1,9 +1,10 @@
+import image from '../assets/png/portrait.png'
 import resume from '../assets/pdf/resume.pdf'
 
 export const headerData = {
     name: 'Vladyslav Baranov',
     title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    desciption:"The real test is not whether you avoid this failure, because you won't. It's whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere.",
+    image: image,
     resumePdf: resume
 }
