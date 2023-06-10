@@ -1,7 +1,7 @@
 export const socialsData = {
-    github: 'https://github.com/',
+    github: 'https://github.com/dreamcatcher1020/',
     facebook: 'https://www.facebook.com/',
-    linkedIn: 'https://www.linkedin.com/in',
+    linkedIn: 'https://www.linkedin.com/in/vladyslav-baranov-b981b227a/',
     instagram: 'https://www.instagram.com/',
     codepen: 'https://codepen.io/',
     twitter: 'https://twitter.com/',
